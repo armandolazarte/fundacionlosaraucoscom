@@ -1,0 +1,23 @@
+article{margin:1em 0 0 0;padding:0 2em 2em 2em;}
+article img{border-radius:1em;margin:0 .4em 0 0;width:130px}
+body{background:#f9f9f9;font-family:"Merriweather Sans",sans-serif}
+h1,h2,h3,h4,h5{color:#47732c;font-family:"Oswald",sans-serif;}
+h1:before,h2:before,h3:before,h4:before,h5:before{content:none}
+h1.page-header,h2.page-header,h3.page-header,h4.page-header,h5.page-header{display:inline-block;}
+h1.page-header img,h2.page-header img,h3.page-header img,h4.page-header img,h5.page-header img{margin:0 .5em 0 0}
+h1.page-header small,h2.page-header small,h3.page-header small,h4.page-header small,h5.page-header small{color:#77bb4d;display:block;line-height:1.2em;margin-top:10px}
+footer{background:#c5e2b3;margin-top:20px;padding:10px 0;}
+footer #contacto ul{list-style-type:none;padding-left:0}
+footer p{font-size:.8em;text-align:left}
+p,section.container li{text-align:justify}
+.derecha{text-align:right}
+.page-header,hr{border-bottom:1px solid #47732c;margin-top:0}
+.well{border:none;margin:0;padding:0}
+#carousel{border:1px solid #47732c;box-shadow:0 0 20px #47732c;}
+#carousel h4,#carousel h5{color:#fff}
+#contacto ul li{display:inline-block;margin:0 .5em}
+#objetivos{list-style-type:number;}
+#objetivos li{text-align:justify}
+#requisitos article{border-top:1px solid #47732c}
+@media (min-width:768px){.texto-largo{-webkit-column-count:2;-webkit-column-gap:2em;-webkit-column-rule:1px solid #47732c}
+}

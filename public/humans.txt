@@ -1,0 +1,15 @@
+﻿/* TEAM */
+	Web developer: Daniel Guillermo Romero Gelvez
+	Email: danielromeroauk@gmail.com
+	Twitter: twitter.com/danielromeroauk
+	Youtube: youtube.com/danielromeroauk
+	Google+: plus.google.com/+DanielRomeroGelvez
+	Skype: danielromeroauk
+	Location: Arauca, Colombia
+
+/* SITE */
+	Last update:2014/04/01
+	Standars: HTML5, CSS3.
+	Language: Español
+	Components: Bootstrap3.1.1, jquery1.11.0, html5shiv3.7.0, respond1.4.2, Picturefill.
+	Software: WAMP, Sublime Text, FileZilla.

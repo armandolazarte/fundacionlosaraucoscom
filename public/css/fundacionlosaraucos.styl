@@ -1,0 +1,91 @@
+// fondo = rgba(65, 134, 69, .9)
+fondo = #F9F9F9
+// colorhr = #ccf
+colorhr = #47732C
+
+article
+    margin 1em 0 0 0
+    padding 0 2em 2em 2em
+    img
+        border-radius 1em
+        margin 0 .4em 0 0
+        width 130px
+
+body
+    background fondo
+    font-family "Merriweather Sans", sans-serif
+
+// h1
+//     small
+//         font-size 50%
+//     text-shadow 1px 1px 0px rgba(230,230,230,1), 2px 2px 1px rgba(200,200,200,1), 3px 3px 0px rgba(0,0,0,1), 4px 4px 17px rgba(0,0,0,0.5)
+
+h1, h2, h3, h4, h5
+    color colorhr
+    font-family "Oswald", sans-serif
+    // font-weight bold
+    &:before
+        content none
+    &.page-header
+        display inline-block
+        img
+            margin 0 .5em 0 0
+        small
+            color colorhr + 30%
+            display block
+            line-height 1.2em
+            margin-top 10px
+
+footer
+    background colorhr + 70%
+    margin-top 20px
+    padding 10px 0
+    #contacto ul
+        list-style-type none
+        padding-left 0
+    p
+        font-size .8em
+        text-align left
+
+p, section.container li
+    text-align justify
+
+.derecha
+    text-align right
+
+.page-header, hr
+    border-bottom 1px solid colorhr
+    margin-top 0
+
+.well
+    border none
+    margin 0
+    padding 0
+
+#carousel
+    border 1px solid #47732C
+    box-shadow 0 0 20px #47732C
+    h4,h5
+        color white
+
+#contacto
+    ul
+        li
+            display inline-block
+            margin 0 .5em
+
+#objetivos
+    list-style-type number
+    li
+        text-align justify
+
+#requisitos
+    article
+        border-top 1px solid colorhr
+
+@media(min-width:768px)
+    .texto-largo
+        -webkit-column-count 2
+        -webkit-column-gap 2em
+        -webkit-column-rule 1px solid colorhr
+
