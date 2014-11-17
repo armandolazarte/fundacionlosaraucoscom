@@ -4,8 +4,8 @@
     </IfModule>
 
     RewriteEngine On
-    RewriteBase /fundacionlosaraucos
-    #RewriteBase /
+    #RewriteBase /fundacionlosaraucos
+    RewriteBase /
 
     # Redirect Trailing Slashes...
     RewriteRule ^(.*)/$ /$1 [L,R=301]
@@ -14,4 +14,7 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+
+    RewriteCond %{HTTP_HOST} ^www.fundacionlosaraucos.org [NC]
+    RewriteRule ^(.*)$ http://fundacionlosaraucos.org/$1 [L,R=301]
 </IfModule>
