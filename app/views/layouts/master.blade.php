@@ -41,4 +41,7 @@
     <script src="{{ url('js/picturefill.js') }}"></script>
   @show
 
+  @include('analyticstracking')
+
 </body>
+</html>
